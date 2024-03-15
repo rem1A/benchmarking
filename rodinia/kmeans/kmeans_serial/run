@@ -1,0 +1,7 @@
+
+make clean
+make 
+
+./kmeans -i ../../../data/kmeans/kdd_cup  2
+./kmeans -i ../../../data/kmeans/kdd_cup  0
+./kmeans -i ../../../data/kmeans/kdd_cup  1

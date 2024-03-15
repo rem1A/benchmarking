@@ -1,0 +1,27 @@
+Mini-Application Name: hpccg
+Mini-Application Version: 1.0
+Parallelism: 
+  MPI not enabled: 
+  OpenMP not enabled: 
+Dimensions: 
+  nx: 2
+  ny: 2
+  nz: 2
+Number of iterations: 2
+Final residual: 0
+#********** Performance Summary (times in sec) ***********: 
+Time Summary: 
+  Total   : 0.000126
+  DDOT    : 6e-06
+  WAXPBY  : 1e-05
+  SPARSEMV: 6e-06
+FLOPS Summary: 
+  Total   : 1024
+  DDOT    : 64
+  WAXPBY  : 96
+  SPARSEMV: 864
+MFLOPS Summary: 
+  Total   : 8.12698
+  DDOT    : 10.6667
+  WAXPBY  : 9.6
+  SPARSEMV: 144
